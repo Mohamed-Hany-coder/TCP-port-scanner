@@ -1,0 +1,26 @@
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Coverage and profiling
+coverage.out
+*.prof
+
+# Local environment files
+.env
+.env.*
+
+# Manus/runtime and local tooling
+.manus/
+.work/
